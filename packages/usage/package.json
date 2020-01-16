@@ -1,0 +1,15 @@
+{
+  "name": "usage",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "mocha --recursive --require @babel/register --timeout=900000 test.spec.js --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "alpha": "1.0.0",
+    "beta-lerna": "1.0.0"
+  }
+}
