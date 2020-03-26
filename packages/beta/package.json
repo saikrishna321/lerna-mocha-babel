@@ -2,16 +2,11 @@
   "name": "beta-lerna",
   "version": "1.0.0",
   "description": "",
-  "main": "lib/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "babel src -d lib",
-    "prepublish": "npm run compile"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "resolutions": {
-    "@babel/core": "^7.5.5"
-  }
+  "license": "ISC"
 }
